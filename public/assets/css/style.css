@@ -1,0 +1,154 @@
+html, body {
+  margin: 0;
+  font-family: Roboto, sans-serif;
+  height: 100%;
+  font-size: 11px;
+}
+
+img {
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.body {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.aside {
+  width: 180px;
+  background-color: #374050;
+  height: 100%;
+}
+
+.logo {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.logo__img-wrap {
+  background: #FFFFFF;
+  border-radius: 0px 0px 20px 0px;
+  padding: 15px;
+  display: inline-block;
+}
+.logo__text {
+  margin: 10px 20px;
+  display: inline-block;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 11px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #FFFFFF;
+}
+
+.aside__menu {
+  margin-top: 30px;
+}
+.aside__link {
+  font-size: 12px;
+  line-height: 11px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.main {
+  height: 100%;
+  flex-grow: 1;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 20px;
+  height: 60px;
+}
+.header__title {
+  color: #ED1C24;
+  height: 100%;
+  line-height: 65px;
+  border-bottom: 4px solid #ED1C24;
+}
+.header__user {
+  padding-right: 10px;
+  color: #A6AFB8;
+}
+
+.page {
+  background-color: #F2F6FA;
+  height: 100%;
+  position: relative;
+}
+
+.items {
+  text-align: left;
+  background-color: #fff;
+  border-collapse: collapse;
+  width: 50%;
+  font-size: 11px;
+  color: #6E6E6F;
+  padding-left: 20px;
+}
+.items th, .items td {
+  padding-left: 20px;
+}
+.items tr {
+  border-bottom: 1px solid #C4C4C4;
+}
+.items__head {
+  background-color: #F2F6FA;
+  font-size: 9px;
+  height: 40px;
+}
+.items__head th {
+  width: 100px;
+}
+.items__row {
+  height: 55px;
+}
+
+.btn {
+  position: absolute;
+  width: 136px;
+  height: 30px;
+  right: 20px;
+  top: 20px;
+  background: #0FC5FF;
+  border-radius: 6px;
+  border: none;
+  font: inherit;
+  color: white;
+  cursor: pointer;
+}
+
+.popik {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 50%;
+  height: 300px;
+  background: #374050;
+  mix-blend-mode: normal;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+}
+.popik__close {
+  position: absolute;
+  top: 18px;
+  right: 5px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  background: url("/assets/img/close.svg") no-repeat center center/cover;
+}
